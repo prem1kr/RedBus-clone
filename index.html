@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redbus</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <nav class="navbar">
+        
+        <div class="container">
+            <div class="content">
+                <img class="redbus-logo" src="redbus-logo.svg" alt="image">
+                <p class="line"></p>
+               <button class="image">
+                <img id="image1"  src="redbus-logo.svg" alt="image" width="40px";>
+               <span class="text">Bus Ticket </span>
+               </button>
+               <img class="image2" src="rail_vertical.svg" alt="image">
+                <span class="text2">Train Tickets</span>
+
+                <button class="help">  <img src="support.jpg" alt="image" width="20px"; height="20px";> Help</button>
+                <button class="account"> <img src="account.png" alt="image" width="20px"; height="20px";>Account</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="background1">
+            <img class="background1-image" src="HomeBannerNew_2000.webp" alt="image" height="850px">
+
+            <h1 class="hyper-text">India's No. 1 Online Bus Ticket Booking Site</h1>
+            <div class="padding100">
+                <input class="from-input" type="text">
+                <p class="from">from</p>
+                <img class="from-image" src="front-bus-black-and-white-icon-vector-45459193-removebg-preview.png" alt="image" width="30px"; height="30px";>
+            <button class="arrow"></button>
+                <hr class="vertical-line">
+                <hr class="vertical-line2">
+                <h1 class="horizontal-line100"> </h1>
+                <h1 class="horizontal-line101">   </h1>
+                <h1 class="horizontal-line102">> </h1 >
+                <h1 class="horizontal-line103">  < </h1>
+                <p class="to-text">To</p>
+                <input class="to-input" type="text">
+                <img class="to-image" src="bus-line.png" alt="image" width="40px"; height="40px";>
+                <hr class="vertical-line1">
+                <p class="calander">Date</p>
+                <img class="calander-image" src="7b8b61d697092c06c243972ce43421a7-removebg-preview.png" alt="image"  width="50px"; height="50px";>
+          <div class="padding1">
+            
+         <h1 class="hyper-text1">SEARCH BUSES</h1>
+
+          </div>
+            </div>
+        </div>
+
+        <div class="trending-offer-banner">
+            <button class="view" >View All</button >
+            <h1 class="heading">
+                TRANDING OFFERS
+            </h1>
+            <div class="offer1-padding">
+                <button class="bus-button1">BUS</button>
+                <img class="offer-image1" src="offer1.png" alt="image" width="90px"; height="90px";>
+                <p class="paragraph1">Save up to Rs 250 on <br> bus tickets</p>
+                <p class="paragraph2">Valid till 1 jul </p>
+                <button class="coppy-button1">FIRST</button>
+                <img class="coppy-button2 " src="copy-button.svg" alt="image" id="coppy-Image" width="30px"; height="30px";>
+                <div class="popup" id="popup">offer copied!</div>
+
+                <script>
+                    document.getElementById('copyImage').addEventListener('click', function() {
+                        // Copy the class (this example doesn't actually copy it, but you can add that functionality if needed)
+                        let popup = document.getElementById('popup');
+                        popup.style.display = 'block';
+                
+                        setTimeout(function() {
+                            popup.style.display = 'block';
+                        }, 1000); // 1 second
+                    });
+
+                </script>
+
+
+            </div>
+            <div class="offer2-padding">
+                <button class="bus-button1">BUS</button>
+                <img class="offer-image2" src="offer2.png" alt="image" width="90px"; height="90px";>
+                <p class="paragraph1">Save up to Rs 300 on  <br> AP, TS routes</p>
+                <p class="paragraph2">Valid till 1 jul </p>
+                <button class="coppy-button1">FIRST</button>
+                <img class="coppy-button2 " src="copy-button.svg" alt="image" id="coppy-Image" width="30px"; height="30px";>
+            </div>
+            <div class="offer3-padding">
+                <button class="bus-button1">BUS</button>
+                <img class="offer-image3" src="offer3.png" alt="image" width="90px"; height="90px";>
+                <p class="paragraph1">Save up to Rs 300 on  <br>Delhi, North, MP</p>
+                <p class="paragraph2">Valid till 1 jul </p>
+                <button class="coppy-button1">FIRST</button>
+                <img class="coppy-button2 " src="copy-button.svg" alt="image" id="coppy-Image" width="30px"; height="30px";>
+            </div>
+
+            <div class="offer4-padding">
+                <button class="bus-button1">BUS</button>
+                <img class="offer-image4" src="offer4.png" alt="image" width="90px"; height="90px";>
+                <p class="paragraph1">Save up to Rs 300 on <br> Chartered Bus</p>
+                <p class="paragraph2">Valid till 1 jul </p>
+                <button class="coppy-button1">FIRST</button>
+                <img class="coppy-button2 " src="copy-button.svg" alt="image" id="coppy-Image" width="30px"; height="30px";>
+            </div>
+           
+        </div>
+        <h1 class="heading2">GOVERNMENT BUSES</h1>
+        <button class="view1">View All</button>
+        <div class="main-padding">
+            <div class="padding5">
+                <button class="bus-button2">*3.98</button>
+                <h1 class="hyper-text5">HRTC</h1>
+                <h3 class="hyper-text6">हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन</h3>
+            <img class="offer-image5" src="gov-offer.png" alt="image" width="80px"; height="80px";>
+            <hr class="line1">
+            <h3 class="paragraph5">
+              480  services including Himgaurav, <br> Himmani and more
+            </h3>
+            <div class="padding6">
+                
+                <h4 class="paragraph7">Official booking partner of HRTC</h4>
+                    <img class="photo1" src="redbus-logo.svg" alt="image" width="25px"; height="25px";>
+                  
+                </div>
+        </div>
+
+        <div class="padding7">
+            <button class="bus-button2">*3.98</button>
+            <h1 class="hyper-text5">HRTC</h1>
+            <h3 class="hyper-text6">हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन</h3>
+        <img class="offer-image6" src="gov-offer1.png" alt="image" width="80px"; height="80px";>
+        <hr class="line1">
+        <h3 class="paragraph5">
+          480  services including Himgaurav, <br> Himmani and more
+        </h3>
+        <div class="padding6">
+            
+            <h4 class="paragraph7">Official booking partner of HRTC</h4>
+                <img class="photo1" src="redbus-logo.svg" alt="image" width="25px"; height="25px";>
+              
+            </div>
+    </div>
+
+    <div class="padding8">
+        <button class="bus-button2">*3.98</button>
+        <h1 class="hyper-text5">HRTC</h1>
+        <h3 class="hyper-text6">हिमाचल रोड ट्रान्सपोर्ट कॉर्पोरेशन</h3>
+    <img class="offer-image7" src="gov-offer2.png" alt="image" width="80px"; height="80px";>
+    <hr class="line1">
+    <h3 class="paragraph5">
+      480  services including Himgaurav, <br> Himmani and more
+    </h3>
+    <div class="padding6">
+        
+        <h4 class="paragraph7">Official booking partner of HRTC</h4>
+            <img class="photo1" src="redbus-logo.svg" alt="image" width="25px"; height="25px";>
+          
+        </div>
+</div>
+        </div>
+    </main>
+
+    <div class="banner1">
+        <img class="right-banner" src="aboutUsImg (1).svg" alt="image">
+        <img class="right-banner1" src="railPop.webp" alt="image">
+    </div>
+    <h1 class="left-hypertext1">
+        NOW,
+    </h1>
+    <h1 class="left-hypertext2">
+         GET MORE THAN 
+    </h1>
+    <h1 class="left-hypertext3">
+        TICKETS WITH 
+    </h1>
+    <h1 class="left-hypertext4">
+        JUST BUS
+    </h1>
+    <h1 class="left-hypertext5">
+        REDBUS!
+    </h1>
+
+    
+        <img class="imge-a-text" src="rail_vertical.svg" alt="image" width="80px"; height="80px";>
+        <a class="offer-a-text" href="">
+            Train Tickets
+    </a>
+    <hr class="horizontal-line">
+    <h5 class="hyper-text-offer">
+        Book IRCTC Train Tickets on redRail simple & superfast booking <br> process with no service fee + no payment gateway charge.
+    </h5>
+    <img class="offer-image9" src="offer-image5.png" alt="image">
+    <img class="offer-image10" src="offer-image1.png" alt="image">
+    <img class="offer-image8" src="offer-image4.png" alt="image">
+
+    <h3 class="offer-a-text1">Authorised IRCTC Partner</h3>
+    <h3 class="offer-a-text2">Instant refunds on UPI payments</h3>
+    <h3 class="offer-a-text3">Hassle- free customer support</h3>
+
+    <button class="buy-button">Book Train Tickets</button>
+
+
+<div class="vacation-banner">
+   <h1 class="app-heading">ENJOY THE APP!</h1>
+   <div class="app-padding"> 
+    <hr class="tick1">
+    <p class="app-paragraph">Quick Access</p>
+    <hr class="tick2">
+    <p class="app-paragraph1">Superior live tracking</p>
+    <p class="app-paragraph2">4.5*</p>
+    <p class="app-paragraph3">50M+ downloads</p>
+    <p class="app-paragraph4">play store</p>
+    <hr class="app-line">
+    <p class="app-paragraph5">4.6*</p>
+    <p class="app-paragraph6">50M+ downloads</p>
+    <p class="app-paragraph7">App store</p>
+   </div>
+   <h1 class="scan">Scan to <br> download</h1>
+   <img class="Qr" src="qrCode.png" alt="image"> 
+   <h2 class="app-paragraph8"> Download the <br> App on</h2>
+   <img class="playstore-logo" src="playstore-logo.png" alt="image" width="180px"; height="100px";>
+</div>
+
+<div class="primo-banner"></div>
+<div class="primo-padding">
+    <h1 class="primo-text"> On Time</h1>
+    <h1 class="primo-small-text">Punctual arrivals on <br> 95% trips</h1>
+
+    <h1 class="primo-text1">Friendly Staff</h1>
+    <h1 class="primo-small-text1">Always ready to help</h1>
+
+    <h1 class="primo-text2">Top Rated</h1>
+    <h1 class="primo-small-text2">Buses with 4+ star <br> rating</h1>
+    <img class="primo-image1" src="primo-image1.png" alt="image" width="80px"; height="80px";>
+    <img class="primo-image2" src="primo-image2.png" alt="image" width="80px"; height="80px";>
+    <img class="primo-image3" src="primo-image3.png" alt="image" width="80px"; height="80px";>
+</div>
+<div class="global">
+<p class="global1">Global presence</p>
+
+
+
+ <a href="">
+<img class="india-image" src="India.svg" alt="image"> 
+<h3 class="india-text">India</h3> </a>
+
+<a href="">
+<img class="indonesia-image" src="Indonesia.svg" alt="image">
+<h3 class="indonesia-text">Indonesia</h3> </a>
+
+<a href="">
+<img class="malysia-image" src="Malaysia.svg" alt="image"> 
+<h3 class="malysia-text">Malysia</h3> </a>
+
+<a href="">
+<img class="peru-image" src="Peru.svg" alt="image">
+<h3 class="peru-text">Peru</h3>  </a>
+
+<a href="">
+<img class="singapur-image" src="Singapore.svg" alt="image">
+<h3 class="singapur-text">Singapure</h3>  </a>
+
+<a href="">
+<img class="vietnam-image" src="Vietnam.svg" alt="image"> 
+<h3 class="vietnam-text">
+    Vietnam
+</h3> </a>
+
+<a href="">
+    <img class="colombia-image" src="Cambodia.svg" alt="image">
+    <h3 class="colombia-text">Colombia</h3>
+     </a>
+</div>
+
+
+<div class="text-banner">
+    <h1 class="text-banner1">
+        BOOK BUS TICKETS ONLINE
+    </h1>
+
+    <h4 class="text-banner2">redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and train ticket booking; with over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travellers. A leading platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17 years across thousands of cities and lakhs of routes in India.</h4>
+    <br>
+    <br>
+    <br>
+    <h4 class="text-banner3">
+        Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services available. You can then compare bus prices, user ratings & amenities, select your preferred seat, boarding & dropping points and pay using multiple payment options like UPI, debit or credit card, net banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel with the best.... <a class="none" href=""> Read more </a>
+    </h4>
+
+    <h1 class="text-banner4">
+        Bus Booking red Deals on redBus
+    </h1>
+    <h3 class="text-banner5">Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!</h3>
+</div>
+
+<div class="padding-bottom">
+    <img class="padding-image" src="redbus-logo.svg" alt="image">
+    <h1 class="padding-text">Unlock Unbeatable Exclusive redDeals!</h1>
+    <h1 class="padding-text-offer">20% OFF</h1>
+    <button class="padding-offer-button">Book now</button>
+    <h2 class="numaber1">3833</h2>
+    <h2 class="numaber2">Deals</h2>
+    <hr class="vl1">
+    <h2 class="numaber3">1593</h2>
+    <h2 class="numaber4">Bus Operators</h2>
+    <hr class="vl2">
+    <h2 class="numaber5">219863</h2>
+    <h2 class="numaber6">Routes</h2>
+</div>
+
+<div class="Question-heading">
+    FAQs related to Bus Tickets Booking
+</div>
+    <a href="" class="Question-small-heading">
+    <h3 class="gap gap1">General</h3>
+    <h3 class="gap">Ticket-related</h3>
+    <h3 class="gap">Payment</h3>
+    <h3 class="gap">Cancellation & Refund</h3>
+    <h3 class="gap">Insurance</h3>
+    </a>
+
+    <div class="Question-padding">
+        
+<h1 class="Question1-padding"> 
+  <p class="Questions"> Can I track the location of my booked bus online? </p> 
+  <hr class="plus-sign"> +
+</h1>
+<h1 class="Question1-padding">
+    <p class="Questions"> Why book bus tickets online on redBus?</p> <hr class="plus-sign"> +   </h1>
+<h1 class="Question1-padding"> 
+    <p class="Questions"> What are the advantages of purchasing a bus ticket with redBus?</p> <hr class="plus-sign"> +  </h1>
+<h1 class="Question1-padding"> 
+    <p class="Questions"> Does bus booking online cost me more? </p> <hr class="plus-sign"> +  </h1>
+<h1 class="Question1-padding">  
+    <p class="Questions"> How can I get the discounts on the bus booking? </p> <hr class="plus-sign"> +  </h1>
+<h1 class="Question1-padding">  
+    <p class="Questions"> What's New in Bus Booking on redBus? </p> <hr class="plus-sign"> +  </h1>
+<h1 class="Question1-padding">  
+    <p class="Questions">Can I book a Government bus ticket on redBus? </p> <hr class="plus-sign"> +  </h1>
+<h1 class="Question1-padding"> 
+    <p class="Questions"> Can I track the location of my booked bus online? </p> <hr class="plus-sign"> +  </h1>  
+</div>
+
+<div class="padding-bottom-last">
+    <p class="top-button">  ^ </p>
+    <p class="top-button1">  ^ </p>
+    <p class="top-button2">  ^ </p>
+    <h1 class="bottom-heading">Popular Bus Routes
+       
+        <hr class="bottom-horizontal-line">
+        
+    </h1>
+
+    <h1 class="bottom-heading1">Popular Bus Routes
+        
+        <hr class="bottom-horizontal-line">
+       
+    </h1>
+
+    <h1 class="bottom-heading2">Popular Bus Routes
+        
+        <hr class="bottom-horizontal-line">
+       
+    </h1>
+
+    <img class="bottom-logo" src="redbus-logo.svg" alt="image" width="100px"; height="100px";>
+    <h3 class="bottom-text">redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</h3>
+
+
+    <p class="About">
+        <h1 class="About1">About redBus
+            <p class="about">about us</p>
+            <p class="about">investor</p>
+            <p class="about">Relations</p>
+            <p class="about">Contact us</p>
+            <p class="about">Mobile version</p>
+            <p class="about">redBus on</p>
+            <p class="about">mobile</p>
+            <p class="about">Sitemap</p>
+        </h1>
+        <h1 class="About1">Info
+            <p class="about2">T&C</p>
+            <p class="about2">Privacy policy</p>
+            <p class="about2">GAQ</p>
+            <p class="about2">Blog</p>
+            <p class="about2">Bus operator</p>
+            <p class="about2">registration</p>
+            <p class="about2">Agent registration</p>
+            
+        </h1>
+
+        <h1 class="About1">Global Site
+            <p class="about">india</p>
+            <p class="about">Singapore</p>
+            <p class="about">Malaysia</p>
+            <p class="about">Indonesia</p>
+            <p class="about">Peru</p>
+            <p class="about">Colombia</p>
+            
+        </h1>
+        <h1 class="About1">Our Partners
+            <p class="about">Goibibo Bus</p>
+            <p class="about">Goibibo Hotes</p>
+            <p class="about">Makemytrip</p>
+            <p class="about">Hotels</p>
+            
+        </h1>
+    </p>
+    <hr class="bottom-horizontal-line-last">
+
+    <div class="sociamedia">
+        <img class="social" src="facebook1.png" alt="image">
+        <img class="social" src="linkdin1.png" alt="image">
+        <img class="social" src="twiter1.png" alt="image">
+        <img class="social" src="instagram1.png" alt="image">
+    </div>
+    <p class="social-icon">c</p>
+<p class="social-text"> 2024 Redbus India Pvt Ltd. All rights reserved</p>
+</div>
+
+
+</body>
+</html>
